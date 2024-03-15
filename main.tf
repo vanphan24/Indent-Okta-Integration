@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     encrypt = true
-    bucket  = ""
+    bucket  = "my-indent-boundary-bucket-van"
     region  = "us-west-2"
     key     = "indent/terraform.tfstate"
   }
